@@ -1,5 +1,14 @@
 * { margin: 0; padding: 0; box-sizing: border-box; }
 
+.avatar {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%; /* làm tròn */
+    object-fit: cover;  /* không méo ảnh */
+    display: block;
+    margin: 50px auto;  /* căn giữa */
+}
+
 body { font-family: 'Segoe UI', sans-serif; line-height: 1.6; background-color: #f4f4f4; }
 
 nav { background-color: #333; padding: 1rem; text-align: center; }
